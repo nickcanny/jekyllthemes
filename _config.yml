@@ -6,11 +6,8 @@ permalink: /themes/:title/
 
 gems: [jekyll-paginate]
 
-highlighter: pygments
+highlighter: rouge
 paginate: 20
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
